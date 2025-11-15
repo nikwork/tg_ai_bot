@@ -33,18 +33,18 @@
 
 Эти части соответвенно расположены в каталогах:
 
-- webservice/api
-- webservice/telegram
+- ./api
+- ./telegram
 
 соответвенно.
 
 ### Запуск решения
 
-В каталге webservice/api запускаем командой:
+В каталге ./api запускаем командой:
 
 ```uvicorn main:app --port 5000```
 
-В каталоге webservice/telegram запускаем командой:
+В каталоге ./telegram запускаем командой:
 
 ```python async.py```
 
@@ -55,7 +55,7 @@
 
 ### Имлементация асистентов
 
-Все промты собраны в одном месте: ```webservice/telegram/utils/prompts.py```.
+Все промты собраны в одном месте: ```./telegram/utils/prompts.py```.
 
 #### Вопросы для кастомизации статьи
 
