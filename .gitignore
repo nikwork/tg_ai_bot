@@ -1,0 +1,5 @@
+.env
+.DS_Store
+.python-version
+webservice/storage/
+webservice/poc/
